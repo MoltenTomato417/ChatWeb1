@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Reservas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="glass">
+    <h1>🚀 Plataforma de Reservas</h1>
+    <p>Microservicios desplegados en la nube</p>
+</header>
+
+<nav class="glass">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio" class="glass">
+    <h2>Bienvenido</h2>
+    <p>Sistema de usuarios, reservas y pagos basado en microservicios.</p>
+    <button id="btnSaludar">Probar JS</button>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="cards">
+        <div class="card glass">
+            <button id="btnUsuarios">👤 Usuarios</button>
+        </div>
+
+        <div class="card glass">
+            <button id="btnReservas">📅 Reservas</button>
+        </div>
+
+        <div class="card glass">
+            <button id="btnPagos">💳 Pagos</button>
+        </div>
+    </div>
+
+    <div id="resultadoServicio" class="glass"></div>
+</section>
+
+<section id="contacto" class="glass">
+    <h2>Contacto</h2>
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <button id="btnEnviar">Enviar</button>
+    <p id="mensaje"></p>
+</section>
+
+<footer class="glass">
+    <p>© 2026 - Proyecto Cloud | Docker + Microservicios</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
