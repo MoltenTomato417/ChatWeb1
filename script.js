@@ -17,28 +17,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // 🔹 SERVICIOS
-    const resultado = document.getElementById("resultadoServicio");
+    // 🔥 REDIRECCIÓN A MICROSERVICIOS
 
+    // 👤 Usuarios
     document.getElementById("btnUsuarios").addEventListener("click", () => {
-        resultado.innerHTML = `
-            <h3>👤 Usuarios</h3>
-            <p>Gestión de registro, login y perfiles.</p>
-        `;
+        window.open("http://149.130.186.3:3001", "_blank");
     });
 
+    // 📅 Reservas
     document.getElementById("btnReservas").addEventListener("click", () => {
-        resultado.innerHTML = `
-            <h3>📅 Reservas</h3>
-            <p>Creación, consulta y cancelación de reservas.</p>
-        `;
+        window.open("http://149.130.186.3:3002", "_blank");
     });
 
+    // 💳 Pagos
     document.getElementById("btnPagos").addEventListener("click", () => {
-        resultado.innerHTML = `
-            <h3>💳 Pagos</h3>
-            <p>Procesamiento de pagos y confirmaciones.</p>
-        `;
+        window.open("http://149.130.186.3:3003", "_blank");
     });
 
     // 🔹 SCROLL SUAVE
